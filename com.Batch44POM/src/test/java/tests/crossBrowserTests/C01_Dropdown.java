@@ -18,15 +18,15 @@ public class C01_Dropdown extends TestBaseCross {
 
         // 2.adim : Select class'indan bir obje olusturalim
         // ve parametre olarak locate ettigimiz Webelementi yazalim
-
+        Thread.sleep(3000);
         Select select = new Select(dropdownElementi);
-
+        Thread.sleep(3000);
         // 3.adim select objesini kullanarak, Select class'inda var olan 3 secim method'undan
         //  istedigimizi kullanarak dropdown'da var olan option'lardan birini sacebiliriz
         //  secim yapmamiza yardim eden bu 3 method void'dir dolayisiyla bize bir sey dondurmezler
-
+        Thread.sleep(3000);
         select.selectByIndex(3);
-
+        Thread.sleep(3000);
         // eger sectigimiz option degerini yazdirmak istersek
         System.out.println(select.getFirstSelectedOption().getText()); //Baby
 
